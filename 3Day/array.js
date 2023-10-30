@@ -126,6 +126,14 @@ b.unshift('eleven','twelve')
 console.log(b)
 
 
+//**** Iterating Arrays*** 
+
+let letters = [... "hello world "]; 
+let string = ""
+for(let letter of letters) {
+    string = string+letter;
+}
+console.log(string)
 
 // **) Concat 
 
@@ -141,4 +149,18 @@ let result = threeNumber.concat(twoNumber)
 console.log(result)
 
 // first we need to put all the values in a variable then we can concat 
+
+let aa = [1,2,3]
+console.log(aa.concat(4,5))
+
+// Reversing and Sorting Arrays 
+
+const rev = [1,2,3,4,5,6]; 
+console.log(rev.reverse());
+
+const sot = [ 3,4,6,2,7,5]; 
+console.log(sot.sort()); 
+
+// ** Map and filter 
+
 
